@@ -1,0 +1,71 @@
+body{
+    font-family: 'lato', sans-serif;
+    background-color: peachpuff;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.tagline{
+    font-style: italic;
+    font-weight: lighter;
+}
+.images{
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+.images h2 {
+    text-align: center;
+    font-family: playfair display, serif;
+}
+.images ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.images li {
+    margin: 10px;
+    border: 3px solid gainsboro;
+    padding: 5px;
+}
+.gallery img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
+.about {
+    background-color: azure;
+    padding: 2rem;
+}
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.about h2 {
+    font-family: playfair display,serif;
+}
+.design {
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-top: 1px solid grey;
+}
+.design ol {
+    font-size: 1rem;
+}
+.design ul {
+    font-size: 1rem;
+}
+footer {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
